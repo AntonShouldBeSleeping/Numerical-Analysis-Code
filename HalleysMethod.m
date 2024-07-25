@@ -23,7 +23,7 @@ function [x, iters] = Halley(x0, f, df, dff, tol)
 xg = x0; % Initial guess
 incr = 1; % Initial increment
 iters = 0; % Initialize iteration counter
-10
+
 % Define a function to avoid excessive clutter within the while loop
 dividor = @(x0) df(x0) - (f(x0) .* dff(x0)) ./ (2 .* df(x0)); 
 while (abs(incr) > tol)
