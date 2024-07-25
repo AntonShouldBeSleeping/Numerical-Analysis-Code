@@ -1,4 +1,4 @@
-%% Newthon's Method
+%% Newthon's Method for approximating a root for a given tolerance. 
 % 
 function [x,iters] = newton(x0,f,df,tol)
 % Newton’s method for f(x) = 0.
