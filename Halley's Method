@@ -1,3 +1,5 @@
+#Halley's Method code created for an assignment in my numerical analysis module. 
+
 function [x, iters] = Halley(x0, f, df, dff, tol)
 % Halley's method for solving f(x) = 0
 %
